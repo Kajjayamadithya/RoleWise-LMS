@@ -142,7 +142,8 @@ The frontend should be running on:
 
 ###  Register
 
-*POST* http://localhost:5000/api/auth/register
+Method:`POST`
+URL: `http://localhost:5000/api/auth/register`
 ```
 json
 {
@@ -157,7 +158,8 @@ json
 
 ###  Login
 
-*POST* http://localhost:5000/api/auth/login
+Method:`POST`
+URL: `http://localhost:5000/api/auth/login`
 ```
 json
 {
