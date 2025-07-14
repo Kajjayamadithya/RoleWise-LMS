@@ -82,33 +82,34 @@ Module6_Assignment/
 
 1. Navigate to the backend directory:
 
-
+```
 cd backend
-
+```
 
 2. Create a .env file with the following content:
-
-env
+```
+.env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
-
+```
 
 3. Install backend dependencies:
 
-
+```
 npm install
 
-
+```
 4. Start the backend server:
-
+```
 
 npm run dev
 
-
+```
 The backend should be running on:  
+```
  http://localhost:5000
-
+```
 ---
 
 ###  Frontend Setup
@@ -141,7 +142,7 @@ The frontend should be running on:
 ###  Register
 
 *POST* http://localhost:5000/api/auth/register
-
+```
 json
 {
   "name": "Adithya",
@@ -149,19 +150,19 @@ json
   "password": "123456",
   "role": "student"
 }
-
+```
 
 ---
 
 ###  Login
 
 *POST* http://localhost:5000/api/auth/login
-
+```
 json
 {
   "email": "adithya@gmail.com",
   "password": "123456"
 }
-
+```
 
 ---
