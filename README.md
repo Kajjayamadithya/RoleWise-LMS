@@ -116,25 +116,26 @@ The backend should be running on:
 
 1. Navigate to the client directory:
 
-
+```
 cd client
-
+```
 
 2. Install frontend dependencies:
 
-
+```
 npm install
-
+```
 
 3. Start the Vite development server:
 
-
+```
 npm run dev
+```
 
-
-The frontend should be running on:  
+The frontend should be running on:
+```
  http://localhost:5173
-
+```
 ---
 
 ##  API Endpoints Tested in Postman
