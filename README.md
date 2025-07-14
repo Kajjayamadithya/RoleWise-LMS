@@ -24,7 +24,7 @@ To build a functional routing system and a role-based dashboard for the LMS plat
 
 ##  Folder Structure
 
-txt
+```
 Module6_Assignment/
 │
 ├── server/
@@ -64,7 +64,7 @@ Module6_Assignment/
 │   └── index.html
 │
 └── README.md
-
+```
 ---
 
 *Tech Stack:* React (Vite + TypeScript), Tailwind CSS, TanStack Router, JWT, Axios, Node.js, MongoDB
